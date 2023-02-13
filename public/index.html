@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terminal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="banner">
+        <pre>
+   _____    __          __              __
+  /     \  |__|  ____  |  |__  _____   |  |
+ /  \ /  \ |  |_/ ___\ |  |  \ \__  \  |  |
+/    Y    \|  |\  \___ |   Y  \ / __ \_|  |__
+\____|__  /|__| \___  >|___|  /(____  /|____/
+          \/          \/      \/      \/
+
+ ____  __                  __                         __     __
+|    |/ _|_____     ____  |__|  ____ __  _  __ ______|  | __|__|
+|      <  \__  \   /    \ |  | /  _ \\ \/ \/ //  ___/|  |/ /|  |
+|    |  \  / __ \_|   |  \|  |(  <_> )\     / \___ \ |    < |  |
+|____|__ \(____  /|___|  /|__| \____/  \/\_/ /____  >|__|_ \|__|
+        \/     \/      \/                         \/      \/
+        </pre>
+
+        <pre>
+          .''.
+          .''.      .        *''*    :_\/_:     .
+         :_\/_:   _\(/_  .:.*_\/_*   : /\ :  .'.:.'.
+     .''.: /\ :   ./)\   ':'* /\ * :  '..'.  -=:o:=-
+    :_\/_:'.:::.    ' *''*    * '.\'/.' _\(/_'.':'.'
+    : /\ : :::::     *_\/_*     -= o =-  /)\    '  *
+     '..'  ':::'     * /\ *     .'/.\'.   '
+         *            *..*         :
+        </pre>
+      </div>
+
+      <div class="instructions">
+        <p class="instruction fs-small">
+          Welcome to my interactive web terminal.
+        </p>
+        <p class="instruction fs-small">
+          For a list of available commands, type
+          <span class="command-span">help</span>
+        </p>
+      </div>
+
+      <div class="previous-commands"></div>
+
+      <form class="command-line">
+        <label for="command-input" id="command-label" class="dir-name">
+          visitor@terminal:~$
+        </label>
+
+        <input
+          id="command-input"
+          class="command-text"
+          type="text"
+          autofocus="on"
+          autocomplete="off"
+          spellcheck="false"
+        />
+      </form>
+    </main>
+
+    <script type="module" src="../src/JS/app.js"></script>
+  </body>
+</html>

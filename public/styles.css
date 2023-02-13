@@ -1,0 +1,126 @@
+:root {
+    --clr-primary: #519975;
+    --clr-light-blue: #73ABAD;
+    --clr-orange: #B89076;
+    --clr-background: #211D1B;
+    --clr-link: rgb(247, 247, 186);
+
+    --fs-small: 14px;
+    --fs-normal: 16px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p::selection {
+    background-color: var(--clr-primary);
+}
+
+span::selection {
+    background-color: var(--clr-primary);
+}
+
+.dir-name,
+.response-container .dir-name {
+    user-select: none; /* Standard syntax */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    -webkit-user-select: none; /* Safari */
+}
+
+.fs-small {
+    font-size: var(--fs-small) !important;
+}
+
+body {
+    background-color: var(--clr-background);
+    font-family: monospace;
+}
+
+main {
+    padding: 20px;
+}
+
+.command-line * {
+    overflow-anchor: none;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+}
+
+pre {
+    color: var(--clr-primary);
+}
+
+.instructions {
+    margin-bottom: 30px;
+}
+
+.instruction {
+    color: var(--clr-orange);
+    font-size: var(--fs-normal);
+}
+
+/* form line with label and input */
+.command-line {
+    display: flex;
+    align-items: center;
+}
+
+#command-input {
+    width: 100%;
+}
+
+.command-text {
+    border: none;
+    outline: none;
+    caret-color: #fff;
+    font-size: var(--fs-normal);
+    color: whitesmoke;
+    background-color: inherit;
+}
+
+.cursor {
+    width: 10px;
+    height: 5px;
+    background-color: blue;
+    position: absolute;
+    left: 0;
+}
+
+.dir-name {
+    letter-spacing: 0.5px;
+    font-size: var(--fs-normal);
+    color: var(--clr-primary);
+    margin-right: 10px;
+}
+
+.response-container {
+    margin-bottom: 15px;
+}
+
+.command-response {
+    color: #fff;
+    font-size: var(--fs-normal);
+    display: block;
+}
+
+.link {
+    color: var(--clr-link);
+    text-decoration: none;
+}
+
+.command-span {
+    position: relative;
+    display: inline-block;
+    color: var(--clr-light-blue);
+    text-shadow: 0 0 5px currentColor;
+}
+
+.command-span-long {
+    width: 140px;
+}

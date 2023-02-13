@@ -1,0 +1,10 @@
+{
+    "help": "*aboutme*: 'Who is Michał?'<br/> *github*: 'Link to my github' <br/> *projects*: 'My Best Projects' <br/> *resume*: 'My Resume'<br/> *email*: 'Best way to contact me'<br/> *weather*: 'Get current weather of your city' <br/> *date*: 'Get todays date and time' <br/> *ArrowUp*: 'Get the earlier typed command'<br/>*ArrowDown*: 'Get the later typed command'<br/>*clear*: 'Clear the terminal'",
+    "aboutme": "Hi, I'm Michał. <br/> I love playing basketball, skiing, programming and I'm most interested in frontend development. <br/> I'm learning web development for 6 months now. <br/> I really enjoy working with other people and cooperating with them.",
+    "githubURL": "https://github.com/MichalKaniowski",
+    "projects": "You can see all projects on my github. For my github you can use the 'github' command.",
+    "resume": "I don't have resume yet. I will update it in the future. If you are interested about me, use 'aboutme' command.",
+    "email": "My email is: kaniowskimichal2@gmail.com, but you can mail me ",
+    "weather": "Usage: weather [city]. Example: weather London.",
+    "commandNotFound": "shell: command not found. Try *help* to get started"
+}
