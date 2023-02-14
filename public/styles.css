@@ -50,6 +50,8 @@ main {
 .banner {
     display: flex;
     align-items: center;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
 }
 
 pre {
@@ -123,4 +125,10 @@ pre {
 
 .command-span-long {
     width: 140px;
+}
+
+@media only screen and (max-width: 850px) {
+    .ascii-picture {
+        display: none;
+    }
 }
