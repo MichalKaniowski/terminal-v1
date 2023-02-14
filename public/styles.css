@@ -131,4 +131,8 @@ pre {
     .ascii-picture {
         display: none;
     }
+    
+    main {
+        padding: 5px;
+    }
 }
